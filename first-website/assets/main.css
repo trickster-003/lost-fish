@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+p {
+    background-color:olivedrab;
+
+    border: 80px dotted antiquewhite;
+
+   /* margin will create an external space around our elemant */
+    margin: 30px;
+
+    /* padding is for elemeants to add space like between the text and boarder */
+
+    /* padding is the internal spacing for elemants */
+
+    padding: 30px;
+}
+
+h1{
+    color:#5f9ea0;
+}
+
+/* in css are denoted by a . in their class name */
+.banner{
+background-color:burlywood;
+font-size: 35px;
+text-align: center;
+}
+
+ol{
+    margin:0 auto;
+    background-color: #5f9ea0;
+    text-align: center;
+}
