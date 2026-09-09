@@ -1,13 +1,26 @@
 body {
     background-image: url(assetsPHM/PHM\ space.jpg);
   background-size: contain;
+    margin: 40px;
+
     
 }
 
-h1{
-    color:aliceblue;
+h1 {
+   font-family: monospace;
+   font-weight:bolder;
+   size: 300px;
+
+   color: rgb(255, 255, 255);
+
+   text-align:justify ; 
 }
 
 p{
-    color:aliceblue;
+   font-family: monospace;
+
+    color:rgb(231, 250, 211);
+
+    text-align:justify ; 
+
 }
