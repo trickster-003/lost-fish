@@ -1,3 +1,33 @@
 body {
-    background-color: cornflowerblue;
+    background-image: url(assets-homepage/sea-bg.jpg);
+    background-size: cover;
+}
+
+h1 {
+   font-family: monospace;
+   font-weight:bolder;
+   size: 300px;
+
+   color: lightblue;
+
+   text-align: center ;
+}
+
+p{
+   font-family: monospace;
+
+   color: rgb(155, 211, 230);
+
+   text-align: center ;
+
+}
+
+ul{
+   font-family: monospace;
+    font-weight: 400;
+
+   color: rgb(155, 211, 230);
+
+   text-align: center ;
+
 }
