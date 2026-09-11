@@ -27,9 +27,11 @@ h3{
 p{
    font-family: monospace;
 
-    color:chartreuse;
+    color:rgb(179, 231, 128);
 
     text-align:justify ; 
+
+    padding: 10px;
 
 }
 

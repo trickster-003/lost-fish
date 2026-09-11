@@ -7,13 +7,23 @@ body {
 }
 
 h1 {
-   font-family: monospace;
-   font-weight:bolder;
-   size: 300px;
+  font-family: monospace;
+  font-weight:bolder;
+  size: 300px;
 
-   color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 
-   text-align:justify ; 
+  text-align:justify ; 
+}
+
+h2{
+  font-family: monospace;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+
+  color: rgb(255, 255, 255);
+  
 }
 
 p{
@@ -21,6 +31,31 @@ p{
 
     color:rgb(231, 250, 211);
 
-    text-align:justify ; 
+    text-align:justify; 
 
+    font-size: 16px;
+}
+
+a:link{
+    color:floralwhite;
+}
+
+a:visited{
+    color:floralwhite;
+}
+
+a:hover{
+    color:crimson;
+}
+
+
+
+.astrophage{
+  display: inline-block;
+  padding: 10 px;
+}
+
+.PL{
+  display: inline-block;
+  padding: 10 px;
 }
