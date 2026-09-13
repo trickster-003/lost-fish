@@ -1,6 +1,6 @@
 body {
     background-image: url(assetsPHM/PHM\ space.jpg);
-  background-size: contain;
+    background-size: contain;
     margin: 40px;
 
     
@@ -30,6 +30,16 @@ p{
    font-family: monospace;
 
     color:rgb(231, 250, 211);
+
+    text-align:justify; 
+
+    font-size: 16px;
+}
+
+details{
+  font-family: monospace;
+
+    color:rgb(149, 182, 254);
 
     text-align:justify; 
 
