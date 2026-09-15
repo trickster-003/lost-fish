@@ -1,9 +1,9 @@
+
 body {
     background-image: url(assetsPHM/PHM\ space.jpg);
     background-size: contain;
     margin: 40px;
-
-    
+  
 }
 
 h1 {
@@ -24,6 +24,15 @@ h2{
 
   color: rgb(255, 255, 255);
   
+}
+
+h3{
+  font-family: monospace;
+  font-weight:lighter;
+  font-style: italic;
+  font-size: 20px;
+
+  color: rgb(243, 221, 110);
 }
 
 p{
@@ -60,6 +69,10 @@ a:hover{
 
 
 
+.highlight{
+  color:cornflowerblue;
+}
+
 .astrophage{
   display: inline-block;
   padding: 10 px;
@@ -68,4 +81,9 @@ a:hover{
 .PL{
   display: inline-block;
   padding: 10 px;
+}
+
+.crew{
+ display:block;
+  padding: 10 px; 
 }
