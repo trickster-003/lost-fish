@@ -45,6 +45,26 @@ ul{
 
 }
 
+ul {
+  /* Remove the default bullet points entirely */
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  background-image: url(assets-homepage/fish\ point.png);
+  background-repeat: no-repeat;
+  
+  background-position: 0px center; 
+  
+  background-size: 40px 40px; 
+  
+  padding-left: 50px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 a:link{
     color:rgb(37, 49, 67);
 }
@@ -55,4 +75,16 @@ a:visited{
 
 a:hover{
     color:chartreuse;
+}
+
+.coral{
+position: absolute;
+right: 0px;
+bottom: 0px;
+}
+
+.coralR{
+position: absolute;
+left: 0px;
+bottom: 0px;
 }

@@ -6,6 +6,32 @@ body {
   
 }
 
+ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  background-image: url(assetsPHM/PHM\ logo.png);
+  background-repeat: no-repeat;
+  
+  background-position: 0px center; 
+  
+  background-size: 100px; 
+  
+  padding: 30px;
+  padding-left: 110px;
+
+  font-family: monospace;
+  font-weight:bolder;
+  size: 300px;
+
+  font-size: 30px;
+
+  color: rgb(255, 255, 255);
+}
+
 h1 {
   font-family: monospace;
   font-weight:bolder;
@@ -71,6 +97,10 @@ a:hover{
 
 .highlight{
   color:cornflowerblue;
+}
+
+.plates{
+  mix-blend-mode: difference;
 }
 
 .astrophage{

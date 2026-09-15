@@ -1,0 +1,104 @@
+
+body {
+    background-image: url(assetsPHM/sunBG.jpeg);
+   margin: 40px;
+}
+
+
+ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  background-image: url(assetsPHM/PHM\ logo.png);
+  background-repeat: no-repeat;
+  
+  background-position: 0px center; 
+  
+  background-size: 100px; 
+  
+  padding: 30px;
+  padding-left: 110px;
+
+  font-family: monospace;
+  font-weight:bolder;
+  size: 300px;
+
+  font-size: 30px;
+
+ font-family:monospace;
+  font-weight: bolder;
+   color:brown;
+   mix-blend-mode: difference;
+}
+
+
+h1 {
+  font-family:monospace;
+  font-weight: bolder;
+   color:brown;
+   mix-blend-mode: difference;
+
+}
+
+h2{
+  font-family:monospace;
+  font-weight: bold;
+   color:brown;
+   mix-blend-mode: difference;
+}
+
+h3{
+  font-family:monospace;
+  font-weight: 300;
+  color:brown;
+  mix-blend-mode: difference;
+}
+
+p{
+  font-family:monospace;
+  font-weight:100;
+  font-style: italic; 
+  color:saddlebrown;
+  mix-blend-mode: difference;
+}
+
+details{
+  
+}
+
+a:link{
+   
+}
+
+a:visited{
+    
+}
+
+a:hover{
+
+}
+
+
+
+.highlight{
+ 
+}
+
+.plates{
+  mix-blend-mode: difference;
+}
+
+.astrophage{
+ 
+}
+
+.PL{
+  
+}
+
+.crew{
+
+}
