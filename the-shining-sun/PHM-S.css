@@ -91,13 +91,22 @@ color: black;
 }
 
 .astrophage{
- 
+  display: inline-block;
+  padding: 10 px;
+  mix-blend-mode: color-burn;
+  text-decoration: line-through;
 }
 
 .PL{
-  
+  display: inline-block;
+  padding: 10 px;
+  mix-blend-mode: color-burn;
+   text-decoration: line-through;
 }
 
-.crew{
-
+.Crew{
+ display:block;
+  padding: 10 px; 
+  mix-blend-mode: color-burn;
+   text-decoration: line-through;
 }
