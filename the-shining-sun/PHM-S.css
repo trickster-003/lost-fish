@@ -65,19 +65,18 @@ p{
   mix-blend-mode: difference;
 }
 
-details{
-  
-}
+
 
 a:link{
-   
+  color: aquamarine; 
 }
 
 a:visited{
-    
+    color: cadetblue;
 }
 
 a:hover{
+color: black;
 
 }
 
