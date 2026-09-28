@@ -1,6 +1,8 @@
 
 body {
     background-image: url(assetsPHM/sunBG.jpeg);
+   background-size: 1000px;
+
    margin: 40px;
 }
 

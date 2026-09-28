@@ -1,8 +1,13 @@
 
 body {
     background-image: url(assetsPHM/PHM\ space.jpg);
-    background-size: contain;
+    background-size: 100px;
     margin: 40px;
+
+    
+    cursor: url("assetsPHM/rocky.ico"), default;
+    /* just change the cursor.ico path to your location */
+
   
 }
 
@@ -114,6 +119,6 @@ a:hover{
 }
 
 .Crew{
- display:block;
-  padding: 10 px; 
+
+
 }

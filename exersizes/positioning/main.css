@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.box{
+  background-color: chartreuse;
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  margin:20px 0;
+  
+}
+
+.relative{
+  background-color: blue;
+  
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.fixed{
+  background-color: cornflowerblue;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+margin: 0;
+
+}
+
+/* .new{
+  background-color: green;
+  top: 20px;
+  right: 20px;
+    z-index: 2;
+} */
+
+.sticky{
+  background-color: brown;
+  position: sticky;
+
+  top: 0; 
+}
+
+.absolute{
+  background-color: coral;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.parent{
+  background: dimgray;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+
+/* absolutly postioned elemants will position themselved relatibe to the document body inless they havea parent/container witha. spotion value */
+.child{
+ background: cadetblue;
+ width: 50px;
+ height: 50px;
+
+ position: absolute;
+ top: -50px;
+ right: -50px;
+}
+
+
+
+.smily{
+background-color: lightgreen;
+width: 400px;
+height: 200px;
+
+margin-top: 100px;
+
+position: relative;
+}
+
+.eye{
+ background-color: lightseagreen;
+ width: 40px;
+ height: 20px;
+ top: 50px;
+
+ position: absolute;
+}
+
+.left{
+ left: 30px;
+}
+
+.right{
+  right: 30px;
+}
+
+.mouth{
+  background-color: lightseagreen;
+  width: 100px;
+  height: 20px;
+
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+.hat{
+  background-color: brown;
+  height: 30px;
+  width: 150px;
+  position: absolute;
+
+  top: -30px;
+  left: 25px;
+}
