@@ -9,7 +9,6 @@ html{
 
 img{
     max-width: 100%;
-
 }
 
 body{
@@ -18,17 +17,15 @@ body{
   background-attachment: fixed;
 
   margin: 0;
-}
 
-/* .viewport{
-  width: 100vw;
-  height: 100vh;
-  overflow: auto;
-}
+  width: 400vw;
+  height: 400vh;
 
-.ocean{
   position: relative;
+}
 
-  width: 2500px;
-  height: 1800px;
-} */
+p{
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  color: aliceblue;
+}

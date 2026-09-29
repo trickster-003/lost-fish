@@ -27,7 +27,7 @@ h3{
 p{
    font-family: monospace;
 
-    color:rgb(179, 231, 128);
+    color:rgb(176, 255, 134);
 
     text-align:justify ; 
 
@@ -75,6 +75,11 @@ a:visited{
 
 a:hover{
     color:chartreuse;
+}
+
+.quote{
+    color: rgb(159, 225, 255);
+    font-style: italic;
 }
 
 .coral{
