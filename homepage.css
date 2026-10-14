@@ -77,6 +77,20 @@ a:hover{
     color:chartreuse;
 }
 
+.House{
+    background-color: azure; 
+    color: black;
+}
+
+.House:visited{
+    color: black;
+}
+
+.House:hover{
+    color: crimson;
+}
+
+
 .quote{
     color: rgb(159, 225, 255);
     font-style: italic;

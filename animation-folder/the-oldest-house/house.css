@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+  background-color: rgb(147, 147, 158);
+  cursor:help;
+}
+
+.container{
+  background-image: linear-gradient(to bottom right, rgb(140, 143, 154), rgb(85, 85, 90));
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  height: 900px;
+  width: 1500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.house{
+  background: rgb(130, 130, 138);
+  position: absolute;
+  height: 400px;
+  width: 900px;
+  animation: move 7s infinite ease-in-out;
+}
+
+@keyframes move{
+  0%{
+    left: 0%;
+    background: rgb(130, 130, 138);
+  }
+
+  50%{
+    left: 20%;
+    background: rgb(95, 95, 101);
+  }
+
+  100%{
+    left: 0%;
+  background: rgb(130, 130, 138);
+  }
+}
+
+.shifting{
+  background: rgb(120, 120, 128);
+  position: absolute;
+  height: 300px;
+  width: 900px;
+  animation: right 7s infinite ease-in-out;
+}
+
+@keyframes right{
+  0%{
+    right: 0%;
+    background: rgb(120, 120, 128);
+  }
+
+  50%{
+    right: 50%;
+    background: rgb(95, 95, 101);
+  }
+
+  100%{
+    right: 0%;
+    background: rgb(120, 120, 128);
+  }
+}
+
+.wall3{
+  background: rgb(72, 72, 78);
+  position: absolute;
+  height: 700px;
+  width: 300px;
+  animation: left 7s infinite ease-in-out;
+}
+
+@keyframes left{
+  0%{
+    left: 10%;
+    background: rgb(130, 130, 138);
+  }
+
+  50%{
+    left: 30%;
+    background: rgb(95, 95, 101);
+  }
+
+  100%{
+    left: 10%;
+  background: rgb(130, 130, 138);
+  }
+}
+
+.hiss{
+  background: rgb(225, 6, 50);
+  box-shadow: 0px 0px 30px rgb(220, 0, 0);
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  animation: opacity 7s infinite ease-in-out;
+}
+
+@keyframes opacity{
+  0%{
+   opacity: 0%;
+  }
+
+  50%{
+     opacity: 100%;
+  }
+
+  100%{
+    opacity: 0%;
+  }
+}
+
+.topwall{
+  background: rgb(72, 72, 78);
+  position: absolute;
+  height: 200px;
+  width: 1000px;
+  animation: bottom 5s infinite ease-in-out;
+}
+
+@keyframes bottom{
+  0%{
+    bottom: 5%;
+    background: rgb(72, 72, 77);
+  }
+
+  50%{
+    bottom: 70%;
+    background: rgb(45, 45, 47)
+  }
+
+  100%{
+    bottom: 5%;
+    background: rgb(78, 78, 83);
+  }
+}
+
+.wall{
+  background: rgb(93, 93, 99);
+  position: absolute;
+  height: 200px;
+  width: 600px;
+  animation: right 5s infinite ease-in-out;
+}
+
+@keyframes right{
+  0%{
+    right: 0%;
+    background: rgb(93, 93, 99);
+  }
+
+  50%{
+    right: 50%;
+    background: rgb(80, 80, 85)
+  }
+
+  100%{
+    right: 0%;
+    background: rgb(93, 93, 99);
+  }
+}
+
+.rightwall{
+  background: rgb(93, 93, 99);
+  position: absolute;
+  height: 700px;
+  width: 250px;
+  animation: right 8s infinite ease-in-out;
+}
+
+@keyframes right{
+  0%{
+    right: 0%;
+    background: rgb(93, 93, 99);
+  }
+
+  50%{
+    right: 50%;
+    background: rgb(80, 80, 85)
+  }
+
+  100%{
+    right: 0%;
+    background: rgb(93, 93, 99);
+  }
+}
+
+.wall2{
+  background: rgb(72, 72, 78);
+  position: absolute;
+  height: 300px;
+  width: 900px;
+  animation: top 3s infinite ease-in-out;
+}
+
+@keyframes top{
+  0%{
+    top: 0%;
+    background: rgb(72, 72, 77);
+  }
+
+  50%{
+    top: 50%;
+    background: rgb(45, 45, 47)
+  }
+
+  100%{
+    top: 0%;
+    background: rgb(78, 78, 83);
+  }
+}
+
+

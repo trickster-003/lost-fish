@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: lightsalmon;
+  transition: background 1s;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.responsive{
+  background: lightgreen;
+  padding: 20px;
+  max-width: 700px;
+  transition: background 1s;
+}
+
+/* 
+max-width = desktop first media quaries get smaller
+min-width = mobile first media quiries get larger
+*/
+
+/* tablet size */
+
+@media screen and (min-width: 900px) {
+  body{
+    background: lightskyblue;
+  }
+
+  .responsive{
+    background: lightseagreen;
+    padding: 40px;
+    border: 5px solid lightskyblue;
+  }
+}
+
+/* phone size */
+
+@media screen and (min-width: 600px) {
+  body{
+    background: lightcyan;
+  }
+
+  .responsive{
+    background: lightseagreen;
+    padding: 30px;
+    border: 5px solid lightgreen;
+  }
+}
