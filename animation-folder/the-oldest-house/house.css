@@ -7,8 +7,15 @@ img{
 }
 
 html{
-  background-color: rgb(147, 147, 158);
   cursor:help;
+}
+
+body{
+  margin: 0;
+}
+
+p{
+  margin: 0;
 }
 
 .container{
@@ -17,8 +24,7 @@ html{
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  height: 900px;
-  width: 1500px;
+  height: 100vh;
   margin: auto;
   overflow: hidden;
 }
@@ -223,3 +229,15 @@ html{
 }
 
 
+/* .theboard{
+  background: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+
+  padding: 5px;
+  margin: 0;
+  position: absolute;
+  justify-content: center;
+  bottom: 10%;
+} */
